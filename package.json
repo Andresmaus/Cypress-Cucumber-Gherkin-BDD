@@ -1,0 +1,37 @@
+{
+  "name": "proyecto-personal-cypress",
+  "version": "1.0.0",
+  "description": "proyecto personal creado con fines educativos y como muestra de mis conocimientos en el area",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open --browser chrome --e2e",
+    "cypress:execution": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andresmaus/Cypress-Cucumber-Gherkin-BDD.git"
+  },
+  "keywords": [
+    "javascript",
+    "cypress",
+    "cucumber",
+    "gherkin",
+    "bdd",
+    "testing"
+  ],
+  "author": "Andres Mauricio Sanchez Barrios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andresmaus/Cypress-Cucumber-Gherkin-BDD/issues"
+  },
+  "homepage": "https://github.com/Andresmaus/Cypress-Cucumber-Gherkin-BDD#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cypress": "^10.7.0",
+    "cypress-grep": "^3.0.2",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.15.6",
+    "multiple-cucumber-html-reporter": "^2.0.0"
+  }
+}
